@@ -22,12 +22,12 @@ ${data.installation}
 ${data.usage}
 
 ## Credits
-${data.credits}
+[${data.credits.split(',')[0]}](${data.credits.split(',')[1]})
 
 ## License
 This project is licensed under the ${data.license} license.
 
-## Contributing
+## Features
 ${data.features}
 
 ## How to Contribute

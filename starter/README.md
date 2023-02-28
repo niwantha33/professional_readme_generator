@@ -2,7 +2,7 @@
 # project
 
 ## Description
-undefined
+description
 
 ## Table of Contents
 - [Installation](#installation)
@@ -18,12 +18,18 @@ undefined
 ## Usage
 undefined
 
-## Contributing
-undefined
-
-## Tests
+## Credits
 undefined
 
 ## License
 This project is licensed under the undefined license.
+
+## Contributing
+undefined
+
+## How to Contribute
+undefined
+
+## Tests
+undefined
 

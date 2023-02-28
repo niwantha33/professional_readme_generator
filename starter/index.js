@@ -15,6 +15,38 @@ const questions = [
         name: 'description',
         message: 'Brief description of your project:',
       },
+      {
+        type: 'input',
+        name: 'installation',
+        message: 'Installation instructions for your project:',
+      },
+      {
+        type: 'input',
+        name: 'usage',
+        message: 'Usage instructions for your project:',
+      },
+      {
+        type: 'input',
+        name: 'credits',
+        message: 'Your collaborators, if any, provide links: example : Niwantha,https://github.com/niwantha33',
+      },
+      {
+        type: 'input',
+        name: 'features',
+        message: 'Provide information about features of your project:',
+      },
+      {
+        type: 'input',
+        name: 'contribute',
+        message: 'Provide information about how to contribute to your project:',
+      },
+      {
+        type: 'input',
+        name: 'tests',
+        message: 'Write tests for your application:',
+      },
+
+      
 
 
 
