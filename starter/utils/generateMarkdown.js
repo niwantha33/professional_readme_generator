@@ -36,6 +36,10 @@ ${data.contribute}
 ## Tests
 ${data.tests}
 
+
+## Questions
+If you have any questions or feedback, please don't hesitate to reach out to me at ${data.email}.You can also find me on GitHub as @${username}.
+
 `;
   return content
 }

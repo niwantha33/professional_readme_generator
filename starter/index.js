@@ -18,43 +18,53 @@ const questions = [
         type: 'input',
         name: 'description',
         message: 'Brief description of your project:',
-      },
-      {
+    },
+    {
         type: 'input',
         name: 'installation',
         message: 'Installation instructions for your project:',
-      },
-      {
+    },
+    {
         type: 'input',
         name: 'usage',
         message: 'Usage instructions for your project:',
-      },
-      {
+    },
+    {
         type: 'input',
         name: 'credits',
         message: 'Your collaborators, if any, provide links: example : Niwantha,https://github.com/niwantha33',
-      },
-      {
+    },
+    {
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project:',
         choices: ['MIT', 'Apache', 'GPL', 'BSD'],
-      },
-      {
+    },
+    {
         type: 'input',
         name: 'features',
         message: 'Provide information about features of your project:',
-      },
-      {
+    },
+    {
         type: 'input',
         name: 'contribute',
         message: 'Provide information about how to contribute to your project:',
-      },
-      {
+    },
+    {
         type: 'input',
         name: 'tests',
         message: 'Write tests for your application:',
-      },
+    },
+    {
+        type: 'input',
+        name: 'username',
+        message: 'What is your GitHub username?',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email?',
+    }
 ];
 
 // function to write README file
@@ -76,7 +86,7 @@ function init() {
     inquirer.prompt(questions).then(content => {
         const answers = generateMarkdown(content)
         // create the file at main folder
-        const filePath = path.join('../generateReadMe','README.md')
+        const filePath = path.join('../generateReadMe', 'README.md')
         // call writeToFile function
         writeToFile(filePath, answers)
     });
