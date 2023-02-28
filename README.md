@@ -1,6 +1,10 @@
-# <Your-Project-Title>
+# Professional Readme Generator
 
 ## Description
+
+[Video - Link](https://drive.google.com/file/d/1uy0h8SGDklXzecGAoB7x3tOnhIG9fDU-/view)
+
+![page](./starter/images/front.png)
 
 ES6 & Node.js: Professional README Generator is a project that automates the process of creating a professional README file for a project on GitHub using a command-line application built with Node.js and the Inquirer package.
 
@@ -28,7 +32,7 @@ ES6 & Node.js: Professional README Generator is a project that automates the pro
 
 - Follow the prompts to enter information about your project.
 
-- he application will generate a README file with the information in the file output.
+- The application will generate a README file with the information in the file output.
 
 ---
 ## Credits
