@@ -36,8 +36,6 @@ ${data.contribute}
 ## Tests
 ${data.tests}
 
-
-
 `;
   return content
 }

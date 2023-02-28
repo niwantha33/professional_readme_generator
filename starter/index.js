@@ -8,8 +8,13 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "title of your project?"
+        message: "Title of your project?"
     },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Brief description of your project:',
+      },
 
 
 
