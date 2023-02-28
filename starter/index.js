@@ -1,3 +1,7 @@
+//  install npm packages 
+// npm install inquirer
+// npm install fs
+
 const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
@@ -58,6 +62,7 @@ function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, data, error => {
         if (error) {
+            // I/O error 
             throw error;
         } else {
             console.log("File created successfully")
@@ -70,7 +75,9 @@ function init() {
 
     inquirer.prompt(questions).then(content => {
         const answers = generateMarkdown(content)
-        const filePath = path.join('../','README.md')
+        // create the file at main folder
+        const filePath = path.join('../generateReadMe','README.md')
+        // call writeToFile function
         writeToFile(filePath, answers)
     });
 }
