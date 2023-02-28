@@ -1,8 +1,8 @@
 
-# project
+# password
 
 ## Description
-description
+data
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,23 +13,23 @@ description
 
 
 ## Installation
-undefined
+data
 
 ## Usage
-undefined
+node index.js
 
 ## Credits
-undefined
+[Niwantha](https://github)
 
 ## License
 This project is licensed under the undefined license.
 
-## Contributing
-undefined
+## Features
+auto generate
 
 ## How to Contribute
-undefined
+plz contact ,e 
 
 ## Tests
-undefined
+n/a
 
