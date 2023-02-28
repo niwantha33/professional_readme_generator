@@ -31,6 +31,12 @@ const questions = [
         message: 'Your collaborators, if any, provide links: example : Niwantha,https://github.com/niwantha33',
       },
       {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for your project:',
+        choices: ['MIT', 'Apache', 'GPL', 'BSD'],
+      },
+      {
         type: 'input',
         name: 'features',
         message: 'Provide information about features of your project:',

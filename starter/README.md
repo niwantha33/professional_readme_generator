@@ -1,8 +1,8 @@
 
-# password
+# t
 
 ## Description
-data
+t
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,23 +13,23 @@ data
 
 
 ## Installation
-data
+t
 
 ## Usage
-node index.js
+t
 
 ## Credits
-[Niwantha](https://github)
+[t](y)
 
 ## License
-This project is licensed under the undefined license.
+This project is licensed under the Apache license.
 
 ## Features
-auto generate
+t
 
 ## How to Contribute
-plz contact ,e 
+y
 
 ## Tests
-n/a
+u
 
