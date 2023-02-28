@@ -86,7 +86,7 @@ function init() {
     inquirer.prompt(questions).then(content => {
         const answers = generateMarkdown(content)
         // create the file at main folder
-        const filePath = path.join('../generateReadMe', 'README.md')
+        const filePath = path.join('../output', 'README.md')
         // call writeToFile function
         writeToFile(filePath, answers)
     });
