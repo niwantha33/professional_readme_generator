@@ -51,12 +51,6 @@ const questions = [
         name: 'tests',
         message: 'Write tests for your application:',
       },
-
-      
-
-
-
-
 ];
 
 // function to write README file
@@ -75,12 +69,10 @@ function writeToFile(fileName, data) {
 function init() {
 
     inquirer.prompt(questions).then(content => {
-
         const answers = generateMarkdown(content)
-        writeToFile('README.md', answers)
-
+        const filePath = path.join('../','README.md')
+        writeToFile(filePath, answers)
     });
-
 }
 
 // function call to initialize program
